@@ -1,0 +1,24 @@
+{
+  "name": "openbootcamp-javascript",
+  "version": "1.0.0",
+  "description": "Curso Javascript de OpenBootcamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elianadenise/en-javascript-openbootcamp.git"
+  },
+  "keywords": [
+    "javascript",
+    "openbootcamp",
+    "solucion"
+  ],
+  "author": "Eliana Navarro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elianadenise/en-javascript-openbootcamp/issues"
+  },
+  "homepage": "https://github.com/elianadenise/en-javascript-openbootcamp#readme"
+}

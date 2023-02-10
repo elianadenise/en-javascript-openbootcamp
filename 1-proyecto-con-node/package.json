@@ -1,0 +1,13 @@
+{
+  "name": "1-proyecto-con-node",
+  "version": "1.0.0",
+  "description": "Primer proyecto con NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "saludar": "node hola_mundo.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eliana Navarro",
+  "license": "ISC"
+}

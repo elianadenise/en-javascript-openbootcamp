@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--css-->
+    <link rel="stylesheet" href="style.css">
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    <!--animation-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--icon-->
+    <script src="https://kit.fontawesome.com/075ec74296.js" crossorigin="anonymous"></script>
+    <title>Prueba con Javascript</title>
+</head>
+
+<body>
+    <header>
+        <div class="animate__animated animate__fadeInLeftBig">
+            <p id="myElement"></p>
+            <h1>GESTIÓN DE EVENTOS</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="animate__animated animate__fadeInLeft">
+            <p>Hi! I'm</p>
+            <h2><a href="https://github.com/elianadenise/fixedfooterreveal">Elo</a></h2>
+            <p>
+                It's January 2023 and I'm studying web development. <br>
+                Therefore, I try to pass the <a href="https://www.monthlycss.com/">Monthly CSS's challenges</a>. <br>
+            </p>
+            <p class="technologies">Technologies: HTML, CSS, SASS.</p>
+        </div>
+        <img src="fondo.svg" alt="Elo codeando" id="imagen" class="animate__animated animate__fadeInRight">
+    </main>
+
+    <footer>
+        <p>Coded with <i class="fa-solid fa-xs fa-heart fa-beat"> </i> by <a href="https://www.linkedin.com/in/elianadnavarro/">Elo</a>.</p>
+    </footer>
+
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <script>
+        new TypeIt("#myElement", {
+        strings: "Javascript - OpenBootcamp",
+      }).go();
+    </script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>

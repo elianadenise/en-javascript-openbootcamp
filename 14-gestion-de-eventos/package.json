@@ -1,0 +1,20 @@
+{
+  "name": "14-gestion-de-eventos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint--fix": "eslint --fix .",
+    "start": "http-server ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.33.0"
+  },
+  "dependencies": {
+    "jquery": "^3.6.3"
+  }
+}

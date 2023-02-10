@@ -1,0 +1,21 @@
+{
+  "name": "ejercicio14",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint--fix": "eslint --fix .",
+    "start": "http-server ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "jquery": "^3.6.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.33.0"
+  }
+}

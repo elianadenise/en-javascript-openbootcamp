@@ -1,0 +1,19 @@
+// FUNCIONES  A S Í N C R O N A S  y  P R O M E S A S
+function asinc() {
+    // funcion que p.e. hace una llamada a base de datos externa
+    // puede dar error 
+}
+const mi_promesa = new Promise((resolve, reject) => {
+    const i = Math.floor(Match.random() * 2)
+    // si esta todo correcto
+    if(i !== 0) {
+        resolve();
+    } else {
+        reject();
+    }
+});
+
+mi_promesa
+    .then(() => console.log("Se ha ejecutado de forma correcta"))
+    .catch(() => console.log("ERROR"))
+    .finally(() => console.log("Yo me ejecuto siempre"))
